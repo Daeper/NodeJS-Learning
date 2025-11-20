@@ -14,14 +14,15 @@
   "dependencies": {
     "chalk": "^4.1.2",
     "debug": "^4.4.3",
+    "ejs": "^3.1.10",
     "express": "^5.1.0",
     "morgan": "^1.10.1",
     "nodemon": "^3.1.11"
   },
-  "nodemonConfig":{
-    "restartable":"rs",
+  "nodemonConfig": {
+    "restartable": "rs",
     "delay": 2000,
-    "env":{
+    "env": {
       "PORT": 3000
     }
   }
